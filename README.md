@@ -35,9 +35,9 @@ Si prefieres no usar Docker, puedes configurar MySQL manualmente o usar un servi
 3. Cambia la configuración de la base de datos en el archivo `src/main/resources/application.properties`:
 
     ```properties
-    spring.datasource.url=jdbc:mysql://localhost:3306/tu_base_de_datos
-    spring.datasource.username=tu_usuario
-    spring.datasource.password=tu_contraseña
+    spring.datasource.url=dbc:mysql://localhost:3306/hogar360?useSSL=false&serverTimezone=UTC
+    spring.datasource.username=usuario
+    spring.datasource.password=contraseña
     ```
 
 ## Configuración del Proyecto
@@ -54,7 +54,7 @@ Para levantar el microservicio, sigue estos pasos:
 1. Clona el repositorio:
 
     ```bash
-    git clone https://github.com/tu-usuario/catalog-service.git
+    git clone https://github.com/Andreastephgm/hogar360-catalog-service.git
     cd catalog-service
     ```
 

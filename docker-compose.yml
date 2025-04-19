@@ -5,9 +5,9 @@ services:
     image: mysql:8
     container_name: mysql-hogar360
     environment:
-      MYSQL_ROOT_PASSWORD: root
+      MYSQL_ROOT_PASSWORD: filomena19
       MYSQL_DATABASE: catalogdb
-      MYSQL_USER: user
+      MYSQL_USER: root
       MYSQL_PASSWORD: filomena19
     ports:
       - "3306:3306"
